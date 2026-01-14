@@ -1,0 +1,16 @@
+library_items = {
+    "Book": {
+        "item_id": "B001",
+        "title": "Shadows of the Forgotten Realm",
+        "Author": "Lena Hartwell",
+        "year": 2018,
+        "genre": "Fantasy Adventure"
+    },
+    "Magazine": {
+        "item_id": "M045",
+        "title": "Tech Horizons Weekly",
+        "Author": "Samuel Drayton",
+        "year": 2024,
+        "issue_Number": 32
+    }
+}
