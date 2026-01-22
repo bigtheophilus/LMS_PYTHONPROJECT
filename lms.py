@@ -2,15 +2,16 @@ from abc import ABC, abstractmethod
 
 
 class LibraryItem(ABC):
-    def __init__(self, item_id, title, author, year):
+    def __init__(self, item_id, title, author, year,):
         self.item_id = item_id
         self.title = title
         self.author = author
         self.year = year
         self.available = True
+       
 
     @abstractmethod
-    def display_info(self):
+    def display_info(self): #the concept of inheritance: inheriting the abstract method and nothing more hence the term "pass"
         pass
 
 
