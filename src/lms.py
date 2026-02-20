@@ -176,7 +176,7 @@ def main():
             library.search_items(keyword)
 
         elif choice == "9":
-            print("Exiting the system. Goodbye!")
+            print("Exiting the system.")
             break
 
         else:
